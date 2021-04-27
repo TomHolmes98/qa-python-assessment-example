@@ -1,1 +1,1 @@
-# qa-python-assessment-1
+# qa-python-assessment-example

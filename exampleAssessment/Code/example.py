@@ -4,7 +4,7 @@
 
 	# <EXAMPLES>
 
-	# endsDev("ilovepy") → True
+	# endsPy("ilovepy") → True
 	# endsDev("welovepy") → True
 	# endsDev("welovepyforreal") → False
 	# endsDev("pyiscool") → False
@@ -14,4 +14,13 @@
 	# What was the name of the function we have seen which changes the case of a string?  Use your CLI to access the Python documentation and get help(str).
     
 def endsPy(input):
-	return False
+	if input[-1].lower() == "y" and input[-2].lower() == "p":
+	    return True
+	else: 
+	    return False
+
+print(endsPy("ilovepy"))
+
+		
+
+
